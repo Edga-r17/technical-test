@@ -127,3 +127,15 @@ curl -X POST -H "Content-Type: application/json" -d '{"number": 45}' http://loca
 ```
 
 ---
+
+## **Restaurar la base de datos**
+
+```bash
+pg_restore -U postgres -h localhost -p 5432 -d technical_test -v technical_test.dump
+```
+
+Si la base de datos aún no existe, créala primero:
+```sql
+   CREATE DATABASE technical_test;
+```
+
