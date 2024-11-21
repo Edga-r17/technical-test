@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ### **4. Configurar la base de datos PostgreSQL**
 1. Crea una base de datos en PostgreSQL para este proyecto:
    ```sql
-   CREATE DATABASE prueba_tecnica;
+   CREATE DATABASE technical_test;
    ```
    
 ### **5. Configurar las variables de entorno**
